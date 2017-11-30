@@ -40,3 +40,5 @@ Make sure that `Git LFS` is installed on every system in the project. See https:
 By default, the UnityYAMLMerge path is set to the Windows 64-bit path.
 Please check https://docs.unity3d.com/Manual/SmartMerge.html for the paths for other systems
 and change the .gitconfig file on your local machine accordingly.
+
+Consider running `git update-index --skip-worktree .gitconfig` in order to not commit your custom Unity path.
