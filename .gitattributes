@@ -45,6 +45,10 @@
 *.blend filter=lfs diff=lfs merge=lfs -text
 *.c4d filter=lfs diff=lfs merge=lfs -text
 
+# Font files
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+
 # Scene, prefab and ScriptableObject files
 *.unity merge=unityyamlmerge
 *.prefab merge=unityyamlmerge
