@@ -1,53 +1,54 @@
+[attr]lfs filter=lfs diff=lfs merge=lfs -text
+
 # Image files
-*.bmp filter=lfs diff=lfs merge=lfs -text
-*.exr filter=lfs diff=lfs merge=lfs -text
-*.gif filter=lfs diff=lfs merge=lfs -text
-*.hdr filter=lfs diff=lfs merge=lfs -text
-*.iff filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.jpeg filter=lfs diff=lfs merge=lfs -text
-*.pict filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
-*.psd filter=lfs diff=lfs merge=lfs -text
-*.tga filter=lfs diff=lfs merge=lfs -text
-*.tiff filter=lfs diff=lfs merge=lfs -text
+*.bmp lfs
+*.exr lfs
+*.gif lfs
+*.hdr lfs
+*.iff lfs
+*.jpg lfs
+*.jpeg lfs
+*.pict lfs
+*.png lfs
+*.psd lfs
+*.tga lfs
+*.tiff lfs
 
 # Audio files
-*.mp3 filter=lfs diff=lfs merge=lfs -text
-*.ogg filter=lfs diff=lfs merge=lfs -text
-*.wav filter=lfs diff=lfs merge=lfs -text
-*.aif filter=lfs diff=lfs merge=lfs -text
-*.aiff filter=lfs diff=lfs merge=lfs -text
-*.mod filter=lfs diff=lfs merge=lfs -text
-*.it filter=lfs diff=lfs merge=lfs -text
-*.s3m filter=lfs diff=lfs merge=lfs -text
-*.xm filter=lfs diff=lfs merge=lfs -text
-
+*.mp3 lfs
+*.ogg lfs
+*.wav lfs
+*.aif lfs
+*.aiff lfs
+*.mod lfs
+*.it lfs
+*.s3m lfs
+*.xm lfs
 
 # Video files
-*.mov filter=lfs diff=lfs merge=lfs -text
-*.mpg filter=lfs diff=lfs merge=lfs -text
-*.mpeg filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-*.avi filter=lfs diff=lfs merge=lfs -text
-*.asf filter=lfs diff=lfs merge=lfs -text
+*.mov lfs
+*.mpg lfs
+*.mpeg lfs
+*.mp4 lfs
+*.avi lfs
+*.asf lfs
 
 # 3D model files
-*.fbx filter=lfs diff=lfs merge=lfs -text
-*.dae filter=lfs diff=lfs merge=lfs -text
-*.3ds filter=lfs diff=lfs merge=lfs -text
-*.dxf filter=lfs diff=lfs merge=lfs -text
-*.obj filter=lfs diff=lfs merge=lfs -text
-*.skp filter=lfs diff=lfs merge=lfs -text
+*.fbx lfs
+*.dae lfs
+*.3ds lfs
+*.dxf lfs
+*.obj lfs
+*.skp lfs
 
 # Proprietary 3D model files
 # TODO add more
-*.blend filter=lfs diff=lfs merge=lfs -text
-*.c4d filter=lfs diff=lfs merge=lfs -text
+*.blend lfs
+*.c4d lfs
 
 # Font files
-*.ttf filter=lfs diff=lfs merge=lfs -text
-*.otf filter=lfs diff=lfs merge=lfs -text
+*.ttf lfs
+*.otf lfs
 
 # Scene, prefab and ScriptableObject files
 *.unity merge=unityyamlmerge
