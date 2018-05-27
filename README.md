@@ -44,3 +44,9 @@ and change the .gitconfig file on your local machine accordingly.
 Consider running `git update-index --skip-worktree .gitconfig` in order to not commit your custom Unity path.
 
 Alternatively, do not add the provided `.gitconfig` file to your project, but rather copy its contents to your global `.gitconfig`, located in your home folder. Do this once for every participant.
+
+If you have problems adding this to your global config, use these commands instead:
+```
+git config --global merge.tool unityyamlmerge
+git config --global mergetool.unityyamlmerge.cmd "<path-to-untyyamlmerge> merge -p \"\$BASE\" \"\$REMOTE\" \"\$LOCAL\" \"\$MERGED\""
+```
