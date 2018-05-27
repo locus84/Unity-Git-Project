@@ -42,3 +42,5 @@ Please check https://docs.unity3d.com/Manual/SmartMerge.html for the paths for o
 and change the .gitconfig file on your local machine accordingly.
 
 Consider running `git update-index --skip-worktree .gitconfig` in order to not commit your custom Unity path.
+
+Alternatively, do not add the provided `.gitconfig` file to your project, but rather copy its contents to your global `.gitconfig`, located in your home folder. Do this once for every participant.
