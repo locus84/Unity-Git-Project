@@ -12,6 +12,7 @@
 *.png lfs
 *.psd lfs
 *.tga lfs
+*.tif lfs
 *.tiff lfs
 
 # Audio files
